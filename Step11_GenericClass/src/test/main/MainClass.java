@@ -20,6 +20,6 @@ public class MainClass {
 		FruitBox<Orange> box3=new FruitBox<Orange>(); // 객체 생성시에 Generic 클래스는 생략 가능하다.
 		box3.pack(new Orange());
 		Orange fruit3=box3.unPack();
-		
+		System.out.println();
 	}
 }

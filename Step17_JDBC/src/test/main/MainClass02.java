@@ -31,7 +31,9 @@ public class MainClass02 {
 	    PreparedStatement pstmt=null;
 	    try {
 	    	// 실행할 미완성의 sql문
-	    	String sql="INSERT INTO member" + " (num, name, addr)" + " VALUES(?, ?, ?)";
+	    	String sql="INSERT INTO member" 
+	    			+ " (num, name, addr)"
+	    			+ " VALUES(?, ?, ?)";
 	    	// 미완성의 sql문을 전달하면서 PreparedStatement객체의 참조값 얻어내기
 	    	pstmt=conn.prepareStatement(sql);
 	    	// PreparedStatement객체의 메소드를 이용해서 미완성인 sql문을 완성시키기(?값에 바인딩하기)

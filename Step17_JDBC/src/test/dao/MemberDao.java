@@ -24,7 +24,7 @@ public class MemberDao {
       //필요한 객체를 담을 지역 변수를 미리 만들기
       Connection conn = null;
       PreparedStatement pstmt = null;
-      ResultSet rs = null;
+      ResultSet rs = null; 
       try {
          //Connection 객체의 참조값 얻어오기
          conn = new DBConnect().getConn();

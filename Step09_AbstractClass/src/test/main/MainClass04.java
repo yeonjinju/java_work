@@ -3,6 +3,9 @@ package test.main;
 public class MainClass04 {
 	
 	public static class Gura{
+		public static void main(String[] args) {
+			
+		}
 		public void say() {
 			System.out.println("안녕! 나는 구라야");
 		}

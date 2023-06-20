@@ -48,7 +48,6 @@ public class MyFrame extends JFrame implements ActionListener {
 	   public static void main(String[] args) {
 		   new MyFrame("나의 프레임");
 	}
-	   
 	   // run 을 누르면 main메소드에서 시작되는 작업단위가 있는데 그 작업단위를 main thread(메인 스레드)라고 부른다. 
 	   // 특별히 작업단위를 늘이지 않은 이상 하나의 작업단위만 존재한다.
 }
